@@ -25,7 +25,7 @@ textarea{
   white-space: pre-wrap;
 }
 
-.time-block{
+.hrBlock{
   text-align: center;
   border-radius: 15px;
 }
@@ -37,6 +37,7 @@ textarea{
 }
 
 .hour {
+  float:left;
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
@@ -58,6 +59,7 @@ textarea{
 }
 
 .saveBtn {
+  float:right;
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
